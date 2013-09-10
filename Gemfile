@@ -24,6 +24,8 @@ gem 'rails', '3.2.3'
 
 gem 'jquery-rails'
 
+gem 'mysql2'
+
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
                           :branch => '3.0.0'
