@@ -5,8 +5,10 @@ $(document).ready(function() {
 	 	rel:'group1', 
 	 	open:true,
 	 	slideshow: true,
-		slideshowSpeed: 5000
-	});   
+		slideshowSpeed: 6000,
+		speed: 700,
+		maxWidth:'100%', maxHeight:'100%'
+	}); 
 
 	//for map on homepage
 	var map = L.mapbox.map('map', 'muyiwaoyeniyi.map-tub85m7l');

@@ -24,28 +24,27 @@
 
 	<div style='display:none;'>
 		<p><a class="group1" href="/assets/Bambara 3.png">Grouped Photo 1</a></p>
-		<p><a class="group1" href="/assets/Catlett 3.png">Grouped Photo 2</a></p>
 		<p><a class="group1" href="/assets/Hughes 3.png">Grouped Photo 2</a></p>
 		<p><a class="group1" href="/assets/Robeson 3.png">Grouped Photo 2</a></p>
 		<p><a class="group1" href="/assets/Du Bois3.png">Grouped Photo 2</a></p>
+		<p><a class="group1" href="/assets/Catlett 3.png">Grouped Photo 2</a></p>
 	</div>
 
-
 	<script type="text/javascript">
-			//For sound playback
-	var mySound = new buzz.sound( "/assets/Memo", {
-    	formats: [ "wav", "mp3"]
-	});
-	mySound.play()
-    	.fadeIn()
-
-    //To toggle play and pause button
-    if ( !mySound.isEnded() ) {
-    	$( ".glyphicon-play" ).click(function() {
-  			mySound.togglePlay()
-  			$('.glyphicon-play').toggleClass('glyphicon-pause')
+		//For sound playback
+		var mySound = new buzz.sound( "/assets/Memo", {
+	    	formats: [ "wav", "mp3"]
 		});
-	} 
+		mySound.play()
+	    	.fadeIn()
+
+	    //To toggle play and pause button
+	    if ( !mySound.isEnded() ) {
+	    	$( ".glyphicon-play" ).click(function() {
+	  			mySound.togglePlay()
+	  			$('.glyphicon-play').toggleClass('glyphicon-pause')
+			});
+		} 
 	</script>
 
 
