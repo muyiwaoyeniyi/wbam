@@ -4,10 +4,6 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  #adapter: sqlite3
-  #database: db/development.sqlite3
-  #pool: 5
-  #timeout: 5000
   adapter: mysql2
   encoding: utf8
   collation: utf8_general_ci
@@ -30,17 +26,9 @@ test:
   timeout: 5000
 
 production:
- # adapter: sqlite3
-  #database: db/production.sqlite3
-  #pool: 5
-  # timeout: 5000
   adapter: mysql2
   encoding: utf8
   collation: utf8_general_ci
-  #reconnect: false
-  #database: transfer_app_prod
-  #pool: 5
-  #username: root
-  #password: wisdom
-  #timeout: 5000
-  #host: localhost
+  database: us-cdbr-east-04.cleardb.com
+  username: b5ca23196f43ae
+  password: fc33d0f4
