@@ -37,6 +37,7 @@ group :production do
 end
 
 gem 'sprockets-image_compressor'
+gem 'yui-compressor'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
